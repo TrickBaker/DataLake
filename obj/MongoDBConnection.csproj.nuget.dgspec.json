@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anton/Desktop/C#Project/MongoDBConnection/MongoDBConnection.csproj": {}
+  },
+  "projects": {
+    "/Users/anton/Desktop/C#Project/MongoDBConnection/MongoDBConnection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anton/Desktop/C#Project/MongoDBConnection/MongoDBConnection.csproj",
+        "projectName": "MongoDBConnection",
+        "projectPath": "/Users/anton/Desktop/C#Project/MongoDBConnection/MongoDBConnection.csproj",
+        "packagesPath": "/Users/anton/.nuget/packages/",
+        "outputPath": "/Users/anton/Desktop/C#Project/MongoDBConnection/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CronNET": {
+              "target": "Package",
+              "version": "[1.1.4939.24773, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
